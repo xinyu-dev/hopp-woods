@@ -33,4 +33,7 @@ where:
 3. Change scores assigned to each residue
 
 
-
+## Limitations
+1. Predicted peptide has a buffer zone of 2 amino acids on each side
+2. Best for predicting peptides of 5-7 in lengths
+3. Does not predict secondary structures or non-linear epitopes
