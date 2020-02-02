@@ -28,9 +28,9 @@ where:
 
 
 ## Examples of Usage
-1. Try prediction different peptide length (original paper suggests 6 aa peptide appears to generate optimal results). 
+1. Try predicting with different peptide lengths (original paper suggests 6 aa peptide appears to generate optimal results). 
 2. Generate a list of all possible peptides of given length, ranked by their hydrophilicity score from highest > lowest
-3. Change scores assigned to each residue
+3. Change score assigned to each residue
 
 
 ## Limitations
