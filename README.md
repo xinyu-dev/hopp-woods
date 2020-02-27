@@ -57,6 +57,7 @@ where:
    [0.1, 0.33, 0.55, 0.78, 1.0, 1.0, 0.78, 0.55, 0.32, 0.1]
 
 
+![](https://github.com/xinyu-dev/hopp-woods/blob/master/images/Weights_by_Linear_Variation_Model.png)
 ## Examples of Usage
 
 See jupyter notebook
@@ -64,7 +65,8 @@ See jupyter notebook
 
 ## Validation against Expasy Query Results
 
-See jupyter notebook
+![](https://github.com/xinyu-dev/hopp-woods/blob/master/images/expassy_validate_noweights.png)
+![](https://github.com/xinyu-dev/hopp-woods/blob/master/images/expassy_validate_weighted.png)
 
 
 
