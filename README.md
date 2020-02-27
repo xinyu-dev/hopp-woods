@@ -64,6 +64,7 @@ See jupyter notebook
 
 
 ## Validation against Expasy Query Results
+Expasy results were obtained from [ProtScale](https://web.expasy.org/protscale/)
 
 ![](https://github.com/xinyu-dev/hopp-woods/blob/master/images/expassy_validate_noweights.png)
 ![](https://github.com/xinyu-dev/hopp-woods/blob/master/images/expassy_validate_weighted.png)
