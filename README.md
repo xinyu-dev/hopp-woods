@@ -48,7 +48,7 @@ where:
    
    [0.1, 0.4, 0.7, 1.0, 0.7, 0.4, 0.1]
    
-   **2) When the peptide window (![](https://latex.codecogs.com/gif.latex?%24%5CDelta%24)) is an even number:**
+   **2) When the peptide window (![](https://latex.codecogs.com/gif.latex?%24%5CDelta%24)) is an even number: (new feature not available in Expasy)**
    
    ![](https://latex.codecogs.com/gif.latex?%24%24w_%7Bi%7D%3D%20%5Cbegin%7Bcases%7D%20%5Calpha&plus;%5Cfrac%7B1-%5Calpha%7D%7B0.5%5CDelta-1%7Dq%20%26%200%5Cle%20q%20%3C%200.5%5CDelta%5C%5C%201-%5Cfrac%7B1-%5Calpha%7D%7B0.5%5CDelta-1%7D%28q-0.5%5CDelta%29%20%26%200.5%5CDelta%20%5Cle%20q%20%5Cle%20%5CDelta-1%20%5Cend%7Bcases%7D%20%24%24)
    
