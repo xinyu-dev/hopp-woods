@@ -52,7 +52,7 @@ where:
    
    <img src="https://github.com/xinyu-dev/hopp-woods/blob/master/images/eq4.png" width=65% height=65%>
    
-   For example, if window=10, edge ![\alpha=0.1](https://render.githubusercontent.com/render/math?math=%5Calpha%3D0.1), then the first and the last weights will be 0.1. The weight for each amino acid in the 10-mer is:
+   For example, if window=10, edge ![\alpha=0.1](https://render.githubusercontent.com/render/math?math=%5Calpha%3D0.1), then the first and the last weights will be 0.1. The weight for each amino acid in the 10-mer is linspaced as:
    
    [0.1, 0.33, 0.55, 0.78, 1.0, 1.0, 0.78, 0.55, 0.32, 0.1]
 
