@@ -13,7 +13,8 @@ User provides protein seq in single-letter amino acid code, specifies a window s
 
 Given: 
 
-![](https://microsoft.codecogs.com/svg.latex?S=\Bigg\{\phi(n)=\frac{\sum\limits_{i=n}^{n+\Delta-1}%20w_{i}X_{i}}{\sum\limits_{i=n}^{n+\Delta-1}%20w_{i}}%20\Bigg|%200\le%20n%20\le%20N-\Delta\Bigg\})
+![](https://microsoft.codecogs.com/gif.latex?\dpi{400}\alpha&space;+&space;\frac{2\beta}{\gamma})
+
 
 Rank items in set S from high to low
 
