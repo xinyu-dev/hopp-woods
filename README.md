@@ -13,10 +13,7 @@ User provides protein seq in single-letter amino acid code, specifies a window s
 
 Given: 
 
-
-![](https://github.com/xinyu-dev/hopp-woods/blob/master/images/eq1.png)
-
-
+<img src="https://github.com/xinyu-dev/hopp-woods/blob/master/images/eq1.png" width=50% height=50%>
 
 Rank items in set S from high to low
 
@@ -39,9 +36,10 @@ where:
 
 1. When no weights are used:
 
-   ![](https://latex.codecogs.com/gif.latex?%24%24w_%7Bi%7D%3D1%24%24)
+   ![w_{i}=1](https://render.githubusercontent.com/render/math?math=w_%7Bi%7D%3D1)
    
-2. When using weights from linear variation model, specify edge weight ![](https://latex.codecogs.com/gif.latex?%24%5Calpha%20%280%3C%5Calpha%5Cle1%24%29)
+2. When using weights from linear variation model, specify edge weight ![\alpha (\alpha\subset {(0, 1\]})](https://render.githubusercontent.com/render/math?math=%5Calpha%20(%5Calpha%5Csubset%20%7B(0%2C%201%5D%7D))
+
 
    **1) When the peptide window (![](https://latex.codecogs.com/gif.latex?%24%5CDelta%24)) is an odd number:**
    
