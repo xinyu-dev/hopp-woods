@@ -6,13 +6,16 @@ A numeric value is assigned to each amino acid, using the amino acid scale outli
 
 *Prediction of protein antigenic determinants from amino acid sequences*, T Hopp, K Woods, PNAS 1981 [link](https://www.ncbi.nlm.nih.gov/pubmed/6167991)
 
-User provides protein seq in single-letter amino acid code, specifies a window size (length of the peptide), and edge weight (default ![](https://latex.codecogs.com/gif.latex?%5Calpha%3D1)). For each amino acid in the window, the program computes a weight using the linear variation model. It then applies the weight to the original score at amino acid level. The final hydrophilicity score for the peptide is calculated by dividing the sum of the corrected amino acid scores by the sum of the weights. The program repeats the process along the sequence of the protein.
+User provides protein seq in single-letter amino acid code, specifies a window size (length of the peptide), and edge weight (default ![\alpha=1](https://render.githubusercontent.com/render/math?math=%5Calpha%3D1)). For each amino acid in the window, the program computes a weight using the linear variation model. It then applies the weight to the original score at amino acid level. The final hydrophilicity score for the peptide is calculated by dividing the sum of the corrected amino acid scores by the sum of the weights. The program repeats the process along the sequence of the protein.
 
 
 ## Mathematical principles
 
 Given: 
-![](https://latex.codecogs.com/gif.latex?S=\Bigg\{\phi(n)=\frac{\sum\limits_{i=n}^{n&plus;\Delta-1}&space;w_{i}X_{i}}{\sum\limits_{i=n}^{n&plus;\Delta-1}&space;w_{i}}&space;\Bigg|&space;0\le&space;n&space;\le&space;N-\Delta\Bigg\})
+![](images/eq1.png)
+
+
+
 
 Rank items in set S from high to low
 
