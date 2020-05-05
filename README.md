@@ -12,8 +12,9 @@ User provides protein seq in single-letter amino acid code, specifies a window s
 ## Mathematical principles
 
 Given: 
-![](images/eq1.png)
 
+
+![](https://github.com/xinyu-dev/hopp-woods/blob/master/images/eq1.png)
 
 
 
@@ -21,17 +22,17 @@ Rank items in set S from high to low
 
 where:
 
-![](https://latex.codecogs.com/gif.latex?%24%5Cphi%28n%29%24%3A): ![](https://latex.codecogs.com/gif.latex?%28%24w_%7Bi%7D%5Cneq1%24%29) or non-weighted ![](https://latex.codecogs.com/gif.latex?%28%24w_%7Bi%7D%3D1%24%29) hydrophilicity scores
+![\phi(n)](https://render.githubusercontent.com/render/math?math=%5Cphi(n)): ![w_{i}\neq1](https://render.githubusercontent.com/render/math?math=w_%7Bi%7D%5Cneq1) or non-weighted ![w_{i}=1](https://render.githubusercontent.com/render/math?math=w_%7Bi%7D%3D1) hydrophilicity scores
 
-![](https://latex.codecogs.com/gif.latex?%24N%24): Number of amino acids in the protein
+![N](https://render.githubusercontent.com/render/math?math=N): Number of amino acids in the protein
 
-![](https://latex.codecogs.com/gif.latex?%24n%24): residue index position on the protein (starting from 0)
+![n](https://render.githubusercontent.com/render/math?math=n): residue index position on the protein (starting from 0)
 
-![](https://latex.codecogs.com/gif.latex?%24%5CDelta%24): size of the peptide "window"
+![\Delta](https://render.githubusercontent.com/render/math?math=%5CDelta): size of the peptide "window"
 
-![](https://latex.codecogs.com/gif.latex?%24X_%7Bi%7D%24): Hopp-Woods hydrophilicity value of amino acid X at index position i
+![X_{i}](https://render.githubusercontent.com/render/math?math=X_%7Bi%7D): Hopp-Woods hydrophilicity value of amino acid X at index position i
 
-![](https://latex.codecogs.com/gif.latex?%24w_%7Bi%7D%24): weight used at each position. Weights are calculated using linear variation model (see below)
+![w_{i}](https://render.githubusercontent.com/render/math?math=w_%7Bi%7D): weight used at each position. Weights are calculated using linear variation model (see below)
 
 
 ## Linear Variation Model for Calculation of Weights
