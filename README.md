@@ -12,9 +12,7 @@ User provides protein seq in single-letter amino acid code, specifies a window s
 ## Mathematical principles
 
 Given: 
-
-![](https://microsoft.codecogs.com/gif.latex?S=\Bigg\{\phi(n)=\frac{\sum\limits_{i=n}^{n+\Delta-1}%20w_{i}X_{i}}{\sum\limits_{i=n}^{n+\Delta-1}%20w_{i}}%20\Bigg|%200\le%20n%20\le%20N-\Delta\Bigg\})
-
+![](https://latex.codecogs.com/gif.latex?S=\Bigg\{\phi(n)=\frac{\sum\limits_{i=n}^{n&plus;\Delta-1}&space;w_{i}X_{i}}{\sum\limits_{i=n}^{n&plus;\Delta-1}&space;w_{i}}&space;\Bigg|&space;0\le&space;n&space;\le&space;N-\Delta\Bigg\})
 
 Rank items in set S from high to low
 
