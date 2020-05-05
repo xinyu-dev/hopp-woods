@@ -13,7 +13,9 @@ User provides protein seq in single-letter amino acid code, specifies a window s
 
 Given: 
 
+
 <img src="https://github.com/xinyu-dev/hopp-woods/blob/master/images/eq1.png" width=50% height=50%>
+
 
 Rank items in set S from high to low
 
